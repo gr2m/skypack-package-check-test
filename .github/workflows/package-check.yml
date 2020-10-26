@@ -1,0 +1,16 @@
+name: Skypack Package Score
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  packageScore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gr2m/skypack-quality-score-action@v1
