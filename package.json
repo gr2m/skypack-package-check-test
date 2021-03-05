@@ -15,6 +15,6 @@
   "keywords": [
     "test"
   ],
-  "repository": "https://github.com/gr2m/skypack-package-check-test",
+  "repository": "github:gr2m/skypack-package-check-test",
   "types": "index.d.ts"
 }
